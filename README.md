@@ -19,5 +19,14 @@ todoApplication> venv\Scripts\activate
 6. Run the following command to start the application.
 ```console
 (venv) todoApplication> python app.py
+* Serving Flask app 'app' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 588-443-625
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
 ```
-7. Open `localhost:5000` in your browser to view the application
+7. Open `localhost:5000/` or `http://127.0.0.1:5000/` in your browser to view the application
