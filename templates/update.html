@@ -9,8 +9,8 @@
     <div>
         <h3 class="text-center">Update Task</h3><br>
         <form action="/update/{{task.id}}" method="POST">
-            <input type="text" name="content" id="content" value="{{task.content}}"/>
-            <input type="submit" value="Update Task"/>
+            <textarea  class="form-control" name="content" id="content" rows="3" cols="50">{{task.content}}</textarea>
+            <input class="btn btn-primary my-3" type="submit" value="Update Task"/>
         </form>
     </div>
 </div>
